@@ -1,11 +1,41 @@
 # Most LLM Conformity Needs No Speaker
+### Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks
 
-Code and reproduction package for the paper:
+Yibo Hu (Illinois Institute of Technology) · Jiaming Qu (Amazon)
 
-> **Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks**<br>
-> Yibo Hu, Jiaming Qu<br>
-> arXiv: [2607.05545](https://arxiv.org/abs/2607.05545)
+📄 Paper: [arXiv:2607.05545](https://arxiv.org/abs/2607.05545)
 
-Peer-pressure benchmarks attribute LLM answer changes to social influence. We measure the *speaker-free floor* — how much of that apparent conformity remains when no speaker is present — and find that much of it needs no speaker at all.
+## Key finding
 
-**The full code, data, and reproduction package will be released here upon publication. In the meantime, they are available from the authors on request.**
+Most of what looks like LLM conformity survives even after the speaker is removed.
+A standard conformity prompt mixes two cues at once — an explicit speaker and a repeated
+wrong answer. Holding the asserted answer fixed and deleting the speaker isolates how much
+revision actually depends on the speaker.
+
+Across six open-weight LLMs and seven QA and reasoning datasets:
+
+- A **no-source** assertion ("The answer is X.") alone drives harmful revision to **66.5%**,
+  versus **10.3%** for a plain re-ask.
+- **Expert-panel** framing adds a robust increment on top (**79.4%**, +12.9 pp); a bare person
+  label does not reliably add anything (**57.4%**).
+
+> Source attribution still matters, but it should be measured as an increment above a large
+> speaker-free floor, not as the whole effect.
+
+## Code and data
+
+The reproduction package — the prompt-perturbation construction, the deterministic
+log-probability arbitration read, the revision metrics, an example input, and the
+mechanism-contrast table behind the headline numbers — **will be released here upon
+publication. In the meantime, it is available from the authors on request.**
+
+## Citation
+
+```bibtex
+@article{hu2026speakerfree,
+  title  = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
+  author = {Hu, Yibo and Qu, Jiaming},
+  year   = {2026},
+  note   = {arXiv preprint arXiv:2607.05545}
+}
+```
