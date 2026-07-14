@@ -8,4 +8,4 @@ Code and reproduction package for the paper:
 
 Peer-pressure benchmarks attribute LLM answer changes to social influence. We measure the *speaker-free floor* — how much of that apparent conformity remains when no speaker is present — and find that much of it needs no speaker at all.
 
-**The full code, data, and reproduction package will be released here upon publication.**
+**The full code, data, and reproduction package will be released here upon publication. In the meantime, they are available from the authors on request.**
