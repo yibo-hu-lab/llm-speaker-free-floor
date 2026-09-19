@@ -32,10 +32,10 @@ publication. In the meantime, it is available from the authors on request.**
 ## Citation
 
 ```bibtex
-@article{hu2026speakerfree,
+@article{hu2026most,
   title  = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
   author = {Hu, Yibo and Qu, Jiaming},
+  journal={arXiv preprint arXiv:2607.05545},
   year   = {2026},
-  note   = {arXiv preprint arXiv:2607.05545}
 }
 ```
