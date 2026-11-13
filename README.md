@@ -14,6 +14,8 @@ A standard conformity prompt mixes two cues at once — an explicit speaker and 
 wrong answer. Holding the asserted answer fixed and deleting the speaker isolates how much
 revision actually depends on the speaker.
 
+<p align="center"><img src="teaser.png" width="90%" alt="Six bare lines saying The answer is (B) push harmful revision to 66.5%; an expert panel adds 12.9 points; a plain re-ask gives 10.3%."></p>
+
 Across six open-weight LLMs and seven QA and reasoning datasets:
 
 - A **no-source** assertion ("The answer is X.") alone drives harmful revision to **66.5%**,
