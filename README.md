@@ -5,6 +5,8 @@ Yibo Hu (Illinois Institute of Technology) · Jiaming Qu (Amazon)
 
 📄 Paper: [arXiv:2607.05545](https://arxiv.org/abs/2607.05545)
 
+✅ Accepted to **Findings of EACL 2027**.
+
 ## Key finding
 
 Most of what looks like LLM conformity survives even after the speaker is removed.
@@ -32,10 +34,10 @@ publication. In the meantime, it is available from the authors on request.**
 ## Citation
 
 ```bibtex
-@article{hu2026most,
-  title  = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
-  author = {Hu, Yibo and Qu, Jiaming},
-  journal= {arXiv preprint arXiv:2607.05545},
-  year   = {2026},
+@inproceedings{hu2027most,
+  title     = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
+  author    = {Hu, Yibo and Qu, Jiaming},
+  booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
+  year      = {2027},
 }
 ```
