@@ -34,10 +34,10 @@ publication. In the meantime, it is available from the authors on request.**
 ## Citation
 
 ```bibtex
-@inproceedings{hu2027most,
-  title     = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
-  author    = {Hu, Yibo and Qu, Jiaming},
-  booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
-  year      = {2027},
+@article{hu2026most,
+  title   = {Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks},
+  author  = {Hu, Yibo and Qu, Jiaming},
+  journal = {arXiv preprint arXiv:2607.05545},
+  year    = {2026},
 }
 ```
