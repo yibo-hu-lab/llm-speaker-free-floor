@@ -26,13 +26,6 @@ Across six open-weight LLMs and seven QA and reasoning datasets:
 > Source attribution still matters, but it should be measured as an increment above a large
 > speaker-free floor, not as the whole effect.
 
-## Code and data
-
-The reproduction package — the prompt-perturbation construction, the deterministic
-log-probability arbitration read, the revision metrics, an example input, and the
-mechanism-contrast table behind the headline numbers — **will be released here upon
-publication. In the meantime, it is available from the authors on request.**
-
 ## Citation
 
 ```bibtex
