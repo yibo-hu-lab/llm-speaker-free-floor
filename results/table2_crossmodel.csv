@@ -1,0 +1,7 @@
+model,all_wrong_experts,all_wrong_nosource,all_wrong_people,mixed_3_3_experts,mixed_3_3_nosource
+gemma9b,0.63,0.42,0.485,0.4464,0.5786
+llama8b,0.9834,0.6856,0.7782,0.5721,0.6611
+mistral7b,0.6383,0.6109,0.5117,0.5633,0.6353
+qwen1.5b,0.6373,0.6209,0.4259,0.1972,0.0381
+qwen3b,0.8831,0.7329,0.6131,0.4544,0.3926
+qwen7b,0.9536,0.9183,0.609,0.1642,0.2923

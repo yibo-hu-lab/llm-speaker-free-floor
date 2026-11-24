@@ -1,0 +1,11 @@
+# Open-weight experiments (run_arbitration.py, run_message_role.py, openended/, justification/)
+torch
+transformers>=4.45
+# Statistics (analysis/robustness_stats.py)
+numpy
+pandas
+scipy
+statsmodels
+# LLM judges (openended/judge_openended.py, justification/code_justification.py)
+openai
+# frontier/run_frontier_api.py uses only the Python standard library.

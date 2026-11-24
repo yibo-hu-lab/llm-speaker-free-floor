@@ -1,0 +1,13 @@
+structure,role,HRR,HRR_lo,HRR_hi,N
+all_wrong,nosource,0.6653,0.654,0.6764,6860
+all_wrong,numbered_people,0.5741,0.5623,0.5857,6860
+all_wrong,named_people,0.5507,0.5389,0.5625,6860
+all_wrong,students,0.5837,0.572,0.5953,6860
+all_wrong,online_participants,0.6366,0.6251,0.6479,6860
+all_wrong,experts,0.794,0.7843,0.8034,6860
+mixed_3_3,nosource,0.443,0.4313,0.4548,6860
+mixed_3_3,numbered_people,0.3655,0.3541,0.3769,6860
+mixed_3_3,named_people,0.3499,0.3387,0.3612,6860
+mixed_3_3,students,0.3541,0.3428,0.3655,6860
+mixed_3_3,online_participants,0.3647,0.3534,0.3762,6860
+mixed_3_3,experts,0.3962,0.3847,0.4078,6860
